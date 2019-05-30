@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vksychev.qchoice.SetNewInformationController">
+   <children>
+      <Label fx:id="question" layoutX="104.0" layoutY="69.0" text="Какую информацию о критериях вы хотите задать?" />
+      <RadioButton fx:id="oneMore" layoutX="162.0" layoutY="113.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="243.0" text="Один критерий важнее других." />
+      <RadioButton fx:id="someEquals" layoutX="162.0" layoutY="142.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="267.0" text="Несколько критериев равноценны." />
+      <RadioButton fx:id="oneLess" layoutX="162.0" layoutY="172.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="274.0" text="Один из критериев менее важен." />
+       <Button fx:id="buttonContinue" layoutX="30.0" layoutY="287.0" mnemonicParsing="false" text="Continue" />
+   </children>
+</AnchorPane>

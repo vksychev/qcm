@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vksychev.qchoice.MinMaxController">
+    <children>
+        <Label fx:id="title" layoutX="14.0" layoutY="41.0" text="Задайте минимальное и максимальное значения критерия &quot;%s&quot;?" />
+        <Button fx:id="continueButton" layoutX="14.0" layoutY="303.0" mnemonicParsing="false" text="Continue" />
+      <Label layoutX="14.0" layoutY="113.0" text="Мин:" />
+      <Label layoutX="11.0" layoutY="177.0" text="Макс:" />
+      <TextField fx:id="minText" layoutX="68.0" layoutY="108.0" />
+      <TextField fx:id="maxText" layoutX="68.0" layoutY="172.0" />
+    </children>
+</AnchorPane>
